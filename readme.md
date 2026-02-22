@@ -24,7 +24,8 @@ Web portofolio pribadi milik **Fuad Abdul Baqi**, mahasiswa D3 Manajemen Informa
 ```
 portfolio-fuad/
 │
-├── index.html        # File utama (semua konten & styling)
+├── index.html        # File utama
+├── style.css         # File styling
 └── README.md         # Dokumentasi ini
 ```
 
