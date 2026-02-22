@@ -298,28 +298,25 @@
     gap: 80px;
     align-items: center;
   }
-
-  .about-visual {
-    position: relative;
-    width: 350px;
-    flex-shrink: 0;
-  }
-
-  .about-avatar {
-  width: 350px;     /* bisa ubah 250–320 sesuai selera */
-  height: 500px;    /* atur tinggi supaya proporsional */
-  overflow: hidden;
-  border-radius: 12px;
-    border-radius: 5px;
+.about-visual {
+  width: 320px;
+  height: 380px;   /* tambahkan tinggi tetap */
+  flex-shrink: 0;
+  position: relative;
 }
 
-  .about-avatar img {
+.about-avatar {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.about-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   display: block;
-  background: #fff;
-  border-radius: 10px;
 }
 
   .about-badge {
