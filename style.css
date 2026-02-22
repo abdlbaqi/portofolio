@@ -305,13 +305,21 @@
     flex-shrink: 0;
   }
 
+  .about-avatar {
+  width: 350px;     /* bisa ubah 250–320 sesuai selera */
+  height: 500px;    /* atur tinggi supaya proporsional */
+  overflow: hidden;
+  border-radius: 12px;
+    border-radius: 5px;
+}
+
   .about-avatar img {
   width: 100%;
   height: 100%;
   object-fit: contain;
   display: block;
   background: #fff;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
   .about-badge {
