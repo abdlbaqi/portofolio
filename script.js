@@ -19,6 +19,10 @@
       if (window.scrollY >= s.offsetTop - 100) current = s.id;
     });
     navLinks.forEach(a => {
-      a.style.color = a.getAttribute('href') === '#' + current ? 'var(--ink)' : '';
+      if (a.getAttribute('href') === '#' + current) {
+        a.classList.add('active');
+      } else {
+        a.classList.remove('active');
+      }
     });
   });
