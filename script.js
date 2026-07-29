@@ -120,7 +120,7 @@ const projects = [
     tags: ['Laravel', 'JavaScript', 'MySQL', 'Midtrans', 'RajaOngkir'],
     image: 'assets/projecttsa.png',
     desc: 'Platform Marketplace hewan peliharaan lengkap dengan integrasi payment gateway Midtrans dan pengecekan ongkir otomatis menggunakan RajaOngkir API.',
-    features: ['Integrasi Midtrans Payment', 'RajaOngkir API', 'Sistem Keranjang & Checkout', 'Dashboard Admin & User']
+    features: ['Integrasi Midtrans Payment', 'RajaOngkir API', 'Biteship API', 'Sistem Keranjang & Checkout', 'Dashboard Admin & User']
   },
   {
     id: 'surat',
@@ -140,7 +140,7 @@ const projects = [
     tags: ['Laravel', 'Tailwind', 'MySQL'],
     image: 'assets/laundry.png',
     desc: 'Sistem Manajemen Kasir Laundry untuk mempermudah pencatatan transaksi, status pengerjaan pakaian, dan laporan pendapatan finansial secara realtime.',
-    features: ['Point of Sales (POS)', 'Tracking Status Laundry', 'Manajemen Pelanggan', 'Laporan Keuangan']
+    features: ['Point of Sales (POS)', 'Tracking Status Laundry', 'Manajemen Pelanggan', 'Laporan Keuangan', 'Integrasi Payment Gateway Midtrans']
   }
 ];
 
