@@ -118,7 +118,7 @@ const projects = [
     title: 'E-Commerce Hewan TSA',
     cat: 'Marketplace / Laravel',
     tags: ['Laravel', 'JavaScript', 'MySQL', 'Midtrans', 'RajaOngkir', 'Biteship', 'Tailwind'],
-    image: 'assets/projecttsa.png',
+    image: 'assets/tsa.png',
     desc: 'Platform Marketplace hewan peliharaan lengkap dengan integrasi payment gateway Midtrans dan pengecekan ongkir otomatis menggunakan RajaOngkir API.',
     features: ['3 Role', 'Integrasi Payment Gateway Midtrans', 'RajaOngkir API', 'Biteship API', 'Sistem Keranjang & Checkout', 'Dashboard Admin & User', 'Manajemen Produk & Kategori', 'Laporan Penjualan & Transaksi', ]
   },
