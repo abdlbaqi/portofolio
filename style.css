@@ -6,6 +6,17 @@
   padding: 0;
 }
 
+img,
+svg,
+video,
+iframe,
+canvas,
+object,
+embed {
+  max-width: 100%;
+  display: block;
+}
+
 :root {
   --bg: #F4F0EB;
   --ink: #111111;
@@ -1566,5 +1577,61 @@ footer p {
 
   .modal-content {
     padding: 18px 16px;
+  }
+}
+
+@media (max-width: 390px) {
+  .hero {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .hero h1 {
+    font-size: clamp(20px, 9vw, 28px);
+    line-height: 1.35;
+  }
+
+  .hero-desc {
+    font-size: 12px;
+    padding: 12px;
+  }
+
+  .stat-card {
+    padding: 14px 12px;
+  }
+
+  .stat-value {
+    font-size: 10px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  .tab-name,
+  .tab-cat,
+  .sd-title,
+  .sd-cat,
+  .contact-item,
+  .big-text {
+    font-size: 12px;
+  }
+
+  .showcase-tab {
+    padding: 12px 10px;
+  }
+
+  .showcase-detail {
+    padding: 18px 14px;
+  }
+
+  .contact-item {
+    gap: 10px;
+  }
+
+  .btn-primary,
+  .btn-ghost {
+    padding: 12px 18px;
+    font-size: 10px;
   }
 }
