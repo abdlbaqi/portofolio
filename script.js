@@ -137,10 +137,10 @@ const projects = [
     num: '03',
     title: 'ZIA Laundry',
     cat: 'Manajemen / Laravel',
-    tags: ['Laravel', 'Tailwind', 'MySQL'],
+    tags: ['Laravel', 'Tailwind', 'MySQL', 'Midtrans'],
     image: 'assets/laundry.png',
-    desc: 'Sistem Manajemen Kasir Laundry untuk mempermudah pencatatan transaksi, status pengerjaan pakaian, dan laporan pendapatan finansial secara realtime.',
-    features: ['Point of Sales (POS)', 'Tracking Status Laundry', 'Manajemen Pelanggan', 'Laporan Keuangan', 'Integrasi Payment Gateway Midtrans']
+    desc: 'Sistem Manajemen Kasir Laundry untuk mempermudah pencatatan transaksi, status pengerjaan pakaian laundry, dan laporan pendapatan.',
+    features: ['2 role','Tracking Status Laundry', 'Manajemen Pelanggan', 'Laporan Keuangan', 'Integrasi Payment Gateway Midtrans']
   }
 ];
 
