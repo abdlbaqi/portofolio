@@ -1396,3 +1396,133 @@ footer p {
     padding: 20px;
   }
 }
+
+@media (max-width: 560px) {
+  nav {
+    padding: 12px 16px;
+  }
+
+  .nav-logo {
+    font-size: 10px;
+  }
+
+  .hero {
+    padding: 100px 16px 48px;
+    gap: 24px;
+  }
+
+  .hero-tag {
+    font-size: 10px;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+  }
+
+  .hero h1 {
+    font-size: clamp(24px, 10vw, 36px);
+    margin-bottom: 18px;
+  }
+
+  .hero-desc {
+    font-size: 13px;
+    line-height: 1.6;
+    padding: 14px;
+    min-height: 72px;
+    margin-bottom: 24px;
+  }
+
+  .hero-cta {
+    flex-direction: column;
+  }
+
+  .hero-cta a,
+  .btn-primary,
+  .btn-ghost {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-right {
+    grid-template-columns: 1fr;
+  }
+
+  .stat-card {
+    padding: 18px 16px;
+    gap: 12px;
+  }
+
+  .stat-icon {
+    width: 44px;
+    height: 44px;
+    font-size: 22px;
+  }
+
+  .stat-label,
+  .stat-value {
+    font-size: 11px;
+  }
+
+  section {
+    padding: 72px 16px;
+  }
+
+  .section-sub {
+    margin-bottom: 36px;
+  }
+
+  .about-grid {
+    gap: 40px;
+  }
+
+  .about-visual {
+    width: 200px;
+    height: 260px;
+  }
+
+  .about-badge {
+    right: -8px;
+    bottom: -14px;
+    padding: 10px 12px;
+    font-size: 10px;
+  }
+
+  .about-info {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-bars {
+    padding: 18px 16px;
+  }
+
+  .showcase-tab {
+    min-width: 110px;
+    padding: 14px 12px;
+  }
+
+  .showcase-detail {
+    padding: 22px 18px;
+  }
+
+  .contact-layout {
+    gap: 40px;
+  }
+
+  .contact-form {
+    padding: 20px 16px;
+  }
+
+  .contact-item {
+    padding: 16px;
+  }
+
+  footer {
+    padding: 20px 16px;
+  }
+
+  .modal-box {
+    margin: 12px;
+  }
+
+  .modal-content {
+    padding: 18px 16px;
+  }
+}
