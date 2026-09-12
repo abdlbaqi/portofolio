@@ -600,6 +600,91 @@ section {
   color: var(--ink);
 }
 
+/* ===================== EXPERIENCE ===================== */
+#pengalaman {
+  background: #FFFFFF;
+}
+
+.experience-grid {
+  width: 100%;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.experience-card {
+  position: relative;
+  background: var(--bg);
+  border: var(--border-thick);
+  box-shadow: var(--hard-shadow);
+  padding: 28px;
+  min-height: 100%;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.experience-card:hover {
+  transform: translate(4px, 4px);
+  box-shadow: 2px 2px 0px var(--ink);
+}
+
+.experience-photo {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  border: 2px solid var(--ink);
+  background: var(--ink);
+  box-shadow: 3px 3px 0px var(--accent);
+  margin-bottom: 22px;
+}
+
+.experience-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: contrast(1.08) saturate(1.05);
+}
+.experience-num {
+  display: inline-block;
+  font-family: var(--serif);
+  font-size: 12px;
+  color: var(--accent-light);
+  background: var(--ink);
+  border: 2px solid var(--ink);
+  padding: 6px 10px;
+  margin-bottom: 18px;
+}
+
+.experience-role {
+  font-family: var(--serif);
+  font-size: 13px;
+  line-height: 1.8;
+  color: var(--ink);
+  margin-bottom: 12px;
+  text-shadow: 2px 2px 0px var(--accent-light);
+}
+
+.experience-place {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.6;
+  color: var(--ink);
+  background: var(--accent-cyan);
+  border: 2px solid var(--ink);
+  box-shadow: 2px 2px 0px var(--ink);
+  padding: 5px 10px;
+  margin-bottom: 18px;
+}
+
+.experience-card p {
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.8;
+}
 /* ===================== SKILL BARS ===================== */
 .skill-bars {
   width: 100%;
@@ -1314,6 +1399,10 @@ footer p {
 
 /* ===================== RESPONSIVE ===================== */
 @media (max-width: 1024px) {
+  .experience-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .hero h1 {
     font-size: clamp(22px, 4vw, 38px);
   }
@@ -1393,6 +1482,7 @@ footer p {
     align-self: center;
   }
 
+  .experience-grid,
   .skills-layout {
     grid-template-columns: 1fr;
   }
@@ -1561,8 +1651,23 @@ footer p {
     grid-template-columns: 1fr;
   }
 
+  .experience-card,
   .skill-bars {
     padding: 18px 16px;
+  }
+
+  .experience-photo {
+    aspect-ratio: 16 / 11;
+    margin-bottom: 18px;
+  }
+
+  .experience-role {
+    font-size: 12px;
+  }
+
+  .experience-place,
+  .experience-card p {
+    font-size: 12px;
   }
 
   .showcase-sidebar {

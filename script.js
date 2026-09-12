@@ -141,6 +141,16 @@ const projects = [
     image: 'assets/laundry.png',
     desc: 'Sistem Manajemen Kasir Laundry untuk mempermudah pencatatan transaksi, status pengerjaan pakaian laundry, dan laporan pendapatan.',
     features: ['2 role','Tracking Status Laundry', 'Manajemen Pelanggan', 'Laporan Keuangan', 'Integrasi Payment Gateway Midtrans']
+  },
+  {
+    id: 'sipustaka',
+    num: '04',
+    title: 'SiPustaka',
+    cat: 'Perpustakaan Digital / Laravel',
+    tags: ['Laravel', 'PHP', 'MySQL', 'Bootstrap', 'Perpustakaan'],
+    image: 'assets/sipustaka.png',
+    desc: 'Sistem informasi perpustakaan digital untuk membantu pengelolaan data buku, anggota, peminjaman, pengembalian, dan akses admin melalui tampilan login yang bersih.',
+    features: ['Login Admin', 'Manajemen Data Buku', 'Manajemen Anggota', 'Peminjaman & Pengembalian', 'Dashboard Perpustakaan Digital']
   }
 ];
 
