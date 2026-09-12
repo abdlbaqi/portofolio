@@ -42,6 +42,7 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
   cursor: none;
+  max-width: 100%;
 }
 
 /* NOISE TEXTURE */
@@ -1493,9 +1494,39 @@ footer p {
     padding: 18px 16px;
   }
 
+  .showcase-sidebar {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
   .showcase-tab {
-    min-width: 110px;
+    min-width: 0;
+    width: 100%;
     padding: 14px 12px;
+    white-space: normal;
+    justify-content: flex-start;
+  }
+
+  .tab-info {
+    min-width: 0;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  .tab-name,
+  .tab-cat,
+  .contact-item,
+  .contact-left p,
+  .section-title,
+  .section-sub,
+  .modal-title,
+  .modal-desc,
+  .big-text,
+  .btn-primary,
+  .btn-ghost,
+  .skill-tag {
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 
   .showcase-detail {
@@ -1511,7 +1542,18 @@ footer p {
   }
 
   .contact-item {
+    display: flex;
+    align-items: flex-start;
     padding: 16px;
+    width: 100%;
+  }
+
+  .marquee-wrapper {
+    overflow: hidden;
+  }
+
+  .marquee-track {
+    min-width: 120%;
   }
 
   footer {

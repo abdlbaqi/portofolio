@@ -120,7 +120,7 @@ const projects = [
     tags: ['Laravel', 'JavaScript', 'MySQL', 'Midtrans', 'RajaOngkir', 'Biteship', 'Tailwind'],
     image: 'assets/projecttsa.png',
     desc: 'Platform Marketplace hewan peliharaan lengkap dengan integrasi payment gateway Midtrans dan pengecekan ongkir otomatis menggunakan RajaOngkir API.',
-    features: ['3 Role', 'Integrasi Payment Gateway Midtrans', 'RajaOngkir API', 'Biteship API', 'Sistem Keranjang & Checkout', 'Dashboard Admin, Super Admin & User', 'Manajemen Produk & Kategori', 'Laporan Penjualan & Transaksi', 'Sistem Notifikasi Email & WhatsApp', 'Sistem Pencarian & Filter Produk',]
+    features: ['3 Role', 'Integrasi Payment Gateway Midtrans', 'RajaOngkir API', 'Biteship API', 'Sistem Keranjang & Checkout', 'Dashboard Admin & User', 'Manajemen Produk & Kategori', 'Laporan Penjualan & Transaksi', ]
   },
   {
     id: 'surat',
