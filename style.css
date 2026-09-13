@@ -803,6 +803,89 @@ section {
   box-shadow: 0px 0px 0px var(--ink);
 }
 
+/* ===================== APP SKILLS ===================== */
+.app-skills {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 64px;
+  background: var(--card);
+  border: var(--border-thick);
+  box-shadow: var(--hard-shadow);
+  padding: 32px;
+}
+
+.app-skills-header {
+  margin-bottom: 28px;
+}
+
+.app-skills-header .section-label {
+  margin-bottom: 18px;
+}
+
+.app-skills-header h3 {
+  font-family: var(--serif);
+  font-size: clamp(16px, 2vw, 24px);
+  line-height: 1.7;
+  text-shadow: 2px 2px 0px var(--accent-light);
+}
+
+.app-category {
+  margin-top: 28px;
+}
+
+.app-category-title {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background: var(--ink);
+  border: 2px solid var(--ink);
+  padding: 4px 10px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.app-item {
+  min-height: 112px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 18px 12px;
+  background: var(--bg);
+  border: 2px solid var(--ink);
+  box-shadow: var(--hard-shadow-sm);
+  text-align: center;
+  transition: transform 0.1s, box-shadow 0.1s, background 0.1s;
+}
+
+.app-item:hover {
+  background: var(--accent-cyan);
+  transform: translate(2px, 2px);
+  box-shadow: 0 0 0 var(--ink);
+}
+
+.app-item img {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+}
+
+.app-item span {
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--ink);
+}
 /* ===================== PROJECTS: COMPACT SHOWCASE ===================== */
 #proyek {
   background: var(--card);
@@ -1399,6 +1482,10 @@ footer p {
 
 /* ===================== RESPONSIVE ===================== */
 @media (max-width: 1024px) {
+  .app-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .experience-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1659,6 +1746,30 @@ footer p {
   .experience-photo {
     aspect-ratio: 16 / 11;
     margin-bottom: 18px;
+  }
+
+  .app-skills {
+    margin-top: 40px;
+    padding: 18px 16px;
+  }
+
+  .app-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .app-item {
+    min-height: 96px;
+    padding: 14px 10px;
+  }
+
+  .app-item img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .app-item span {
+    font-size: 11px;
   }
 
   .experience-role {

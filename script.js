@@ -119,18 +119,18 @@ const projects = [
     cat: 'Marketplace / Laravel',
     tags: ['Laravel', 'PHP', 'MySQL', 'Midtrans', 'RajaOngkir', 'Biteship', 'OAuth 2.0', 'Tailwind'],
     image: 'assets/tsa.png',
-    desc: 'Platform Marketplace hewan peliharaan lengkap dengan integrasi payment gateway Midtrans dan pengecekan ongkir otomatis menggunakan RajaOngkir API.',
+    desc: 'Platform Marketplace hewan peliharaan lengkap dengan integrasi payment gateway Midtrans dan pengecekan ongkir otomatis menggunakan RajaOngkir API dan pelacakan pesanan menggunakan Biteship API.',
     features: ['3 Role', 'Integrasi Payment Gateway Midtrans', 'RajaOngkir API', 'Biteship API', 'Sistem Keranjang & Checkout', 'Dashboard Admin & User', 'Manajemen Produk & Kategori', 'Laporan Penjualan & Transaksi', ]
   },
   {
     id: 'surat',
     num: '02',
-    title: 'Pencatatan Surat',
+    title: 'Pencatatan Surat Masuk dan Surat Keluar',
     cat: 'Sistem Informasi / Laravel',
     tags: ['Laravel', 'Bootstrap', 'MySQL'],
     image: 'assets/perpus.png',
     desc: 'Aplikasi manajemen dan pencatatan surat masuk maupun surat keluar untuk instansi, dilengkapi dengan fitur disposisi dan pelacakan status surat serta cetak PDF/Excel.',
-    features: ['Manajemen Surat Masuk/Keluar', 'Sistem Disposisi', 'Cetak Laporan', 'Multi-role User']
+    features: ['Manajemen Surat Masuk/Keluar', 'Sistem Disposisi', 'Cetak Laporan', 'Pelacakan Status Surat',]
   },
   {
     id: 'zia',
@@ -147,9 +147,9 @@ const projects = [
     num: '04',
     title: 'SiPustaka',
     cat: 'Perpustakaan Digital / Laravel',
-    tags: ['Laravel', 'PHP', 'MySQL', 'Bootstrap', 'Perpustakaan'],
+    tags: ['Laravel', 'PHP', 'MySQL', 'Bootstrap',],
     image: 'assets/sipustaka.png',
-    desc: 'Sistem informasi perpustakaan digital untuk membantu pengelolaan data buku, anggota, peminjaman, pengembalian, dan akses admin melalui tampilan login yang bersih.',
+    desc: 'Sistem informasi perpustakaan digital untuk membantu pengelolaan data buku, anggota, peminjaman, dan pengembalian.',
     features: ['Login Admin', 'Manajemen Data Buku', 'Manajemen Anggota', 'Peminjaman & Pengembalian', 'Dashboard Perpustakaan Digital']
   }
 ];
